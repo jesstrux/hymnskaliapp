@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.akilsw.hymns.HymnsDetailActivity">
+
+    <item
+        android:id="@+id/action_play_melody"
+        android:orderInCategory="100"
+        android:title="Melody"
+        android:icon="@drawable/ic_play_circle"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_fav"
+        android:orderInCategory="100"
+        android:title="Favorite"
+        android:icon="@drawable/ic_favorite"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_info"
+        android:orderInCategory="100"
+        android:title="Info"
+        android:icon="@drawable/ic_info"
+        app:showAsAction="always" />
+
+    <!--<item-->
+        <!--android:id="@+id/action_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/action_settings"-->
+        <!--app:showAsAction="never" />-->
+</menu>

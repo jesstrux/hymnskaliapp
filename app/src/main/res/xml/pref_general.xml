@@ -1,0 +1,30 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/pref_language_list_titles"
+        android:entryValues="@array/pref_language_list_values"
+        android:key="hymns_language"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_hymns_language" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="is_musician"
+        android:summary="@string/pref_description_is_musician"
+        android:title="@string/pref_title_is_musician" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="autoplay_audio"
+        android:summary="@string/pref_description_autoplay_audio"
+        android:title="@string/pref_title_autoplay_audio" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="loop_audio"
+        android:summary="@string/pref_description_loop_audio"
+        android:title="@string/pref_title_loop_audio" />
+
+</PreferenceScreen>

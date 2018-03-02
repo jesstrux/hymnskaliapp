@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Hymns Kali</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="title_activity_hymns_detail">Hymn Detail</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="action_view_extra_details">Extra</string>
+    <string name="action_share">Share</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- App settings -->
+    <string name="pref_language_key" translatable="false">hymns_language</string>
+    <string name="pref_language_default" translatable="false">sw</string>
+    <string name="pref_title_hymns_language">Choose language</string>
+    <string name="pref_description_hymns_language">
+        Select language used for hymns
+    </string>
+
+    <string-array name="pref_language_list_titles">
+        <item>Swahili</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="pref_language_list_values">
+        <item name="sw">sw</item>
+        <item name="en">en</item>
+    </string-array>
+
+    <string name="pref_is_musician_key" translatable="false">is_musician</string>
+    <string name="pref_is_musician_default" translatable="false">False</string>
+
+    <string name="pref_title_is_musician">Show musician extras</string>
+    <string name="pref_description_is_musician">
+        Check to show tabs, timing, key extras to hymns
+    </string>
+
+    <string name="pref_title_autoplay_audio">Autoplay audio</string>
+    <string name="pref_description_autoplay_audio">
+        Download on play hymn tune when viewing tune
+    </string>
+
+    <string name="pref_title_loop_audio">Loop audio</string>
+    <string name="pref_description_loop_audio">
+        Repeat hymn tune when it ends
+    </string>
+    <string name="title_activity_hymn_lyrics">HymnLyricsActivity</string>
+    <string name="large_text">
+        "Yu pekee, yu pekee \n\n"
+    </string>
+
+    <string name="lyrics_sw">
+        " Wamwendea Yesu kwa kusafiwa\n Na kuoshwa kwa damu ya kondoo?\n "Je, neema yake umemwagiwa?\n "Umeoshwa kwa damu ya kondoo?\n\n"
+
+        "\t\t\t\t\tKuoshwa, kwa damu,\n"
+        "\t\t\t\t\tItutakasayo ya kondoo,\n"
+        "\t\t\t\t\tZiwe safi nguo nyeupe mno,\n"
+        "\t\t\t\t\tUmeoshwa kwa damu ya kondoo?\n\n"
+
+        "Wamwandama daima Mkombozi,\n Na kuoshwa kwa damu ya kondoo?\n Yako kwa Msulubiwa makazi,\n "Umeoshwa kwa damu ya kondoo?\n"
+    </string>
+
+    <string name="lyrics_en">
+        " Have you been to Jesus for the cleansing pow’r?\n Are you washed in the blood of the Lamb?\n Are you fully trusting in His grace this hour?\n" Are you washed in the blood of the Lamb?\n\n\t\t\t\t\tAre you washed in the blood,\n\t\t\t\t\tIn the soul-cleansing blood of the Lamb?\n\t\t\t\t\tAre your garments spotless?\n\t\t\t\t\tAre they white as snow?\n\t\t\t\t\tAre you washed in the blood of the Lamb?\n\n" Are you walking daily by the Savior’s side?\n Are you washed in the blood of the Lamb?\n Do you rest each moment in the Crucified?\n Are you washed in the blood of the Lamb?\n"
+    </string>
+
+    <string name="chorus">
+        Miotics small batch squid diretrade. Readymade salvia Echo Park scenester. Consectetur adipisicing elit. A dolorum consequatur
+    </string>
+
+    <string name="verse_one">
+        Chambray Carles Terry Gibson balls plaid wolf. Disrupt fashion axe 90\'s quinoa reiciendis asperiores voluptates sapiente laudantium in
+    </string>
+
+    <string name="verse_two">
+        Selvage small batch swag asymmetrical whatever, tattooed American Apparel meh viral wolf tofu trust fund you probably haven\'t
+    </string>
+
+    <string name="verse_three">
+        Speriores voluptates sapiente laudantium in eaque quos ducimus tempore tempora illo repudiandae reprehenderit
+    </string>
+</resources>

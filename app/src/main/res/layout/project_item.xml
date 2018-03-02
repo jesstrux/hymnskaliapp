@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:layout_marginBottom="2dp">
+
+    <TextView
+        android:id="@+id/call_length"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:textSize="14dp"
+        android:textColor="@color/colorPrimary"
+        android:text="40 Seconds" />
+
+    <TextView
+        android:id="@+id/call_cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:paddingBottom="6dp"
+        android:layout_marginTop="6dp">
+
+        <TextView
+            android:id="@+id/call_recepient"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="#555"
+            android:textSize="20dp"
+            android:text="Unknown"
+            android:layout_marginRight="20dp"/>
+        <TextView
+            android:id="@+id/call_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#777"
+            android:textSize="12dp"
+            android:text="12:30PM"/>
+    </LinearLayout>
+</LinearLayout>
